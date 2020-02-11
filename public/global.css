@@ -1,0 +1,79 @@
+:root {
+	--box-shadow-center: 0 0 20px 0  rgba(136, 136, 136, .25);
+	--box-shadow-right: 5px 0 20px 0 rgba(136, 136, 136, .25);
+	--box-shadow-bottom: 0 5px 20px 0 rgba(136, 136, 136, .25);
+	--graphql-purple: rgb(229, 53, 171);
+}
+
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #333;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 14px;
+}
+
+body * {
+	box-sizing: border-box;
+	line-height: 1.8em;
+}
+
+p {
+	font-size: 1em;
+}
+
+a {
+	color: var(--graphql-purple);
+	text-decoration: none;
+}
+
+a:visited {
+	color: var(--graphql-purple);
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+input[type="range"] {
+	height: 0;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
