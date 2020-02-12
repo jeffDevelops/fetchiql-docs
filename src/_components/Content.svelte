@@ -279,7 +279,7 @@ const Dogs = () => {
   }, [fetchiQL])
 
   return (
-    <>{dogs.map(dog => <PetDetail<Dog> pet={dog} />}</>)
+    <>{dogs.map(dog => <PetDetail<Dog> pet={dog} />)}</>
   )
 }`}
   />

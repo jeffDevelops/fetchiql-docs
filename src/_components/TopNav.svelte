@@ -29,7 +29,7 @@
     flex-direction: column;
     justify-content: space-between;
     width: 15px;
-    height: 10px;
+    height: 8px;
   }
   .bar {
     height: 1px;
