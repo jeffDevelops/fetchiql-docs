@@ -16,7 +16,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "codemirror": "^5.51.0",
+    "codemirror": "^5.58.2",
     "fetchiql": "^1.1.0",
     "livereload": "^0.9.1",
     "sirv-cli": "^0.4.4"
